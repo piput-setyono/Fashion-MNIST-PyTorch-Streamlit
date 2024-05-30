@@ -109,7 +109,7 @@ We use several model architectures in this experiment, namely:
 
 ### Input Images into model
 
-In this experiment, each model was made into 2 different models to receive different input images, namely 2 layer images (grayscale) and 3 layers (grayscale in RGB images, by duplicating the data into 3 layers)
+In this experiment, each model was made into 2 different models to receive different input images, namely 1 layer images (grayscale) and 3 layers (grayscale in RGB images, by duplicating the data into 3 layers)
 
 ## Results
 
@@ -119,13 +119,13 @@ Results on the test dataset with in each model:
 
 | Model             | Input Images | F1 Score | Best Epoch | Training Time in 10 epochs (s) | model _state_dict_ size (KB) |
 | ----------------- | ------------ | -------- | ---------- | ------------------------------ | ---------------------------- |
-| ResNet50          | 2 layer      | 0.9231   |      9     |  526.2751317024231             | 92.205                       |
-| ResNet50          | 3 layer      | 0.9325   |      6     |  550.8460876941681             | 92.229                       |
-| MobileNetV2       | 2 layer      | 0.9321   |     10     | 1529.3635387420654             |  8.985                       |
+| ResNet50          | 1 layer      | 0.9231   |      9     |  2656.2751317024231             | 92.205                       |
+| ResNet50          | 3 layer      | 0.9325   |      6     |  1550.8460876941681             | 92.229                       |
+| MobileNetV2       | 1 layer      | 0.9321   |     10     | 1529.3635387420654             |  8.985                       |
 | MobileNetV2       | 3 layer      | 0.9372   |      4     | 1597.850979566574              |  9.987                       |
-| MobileNetV3_small | 2 layer      | 0.9265   |     10     |  690.6068074703217             |  6.108                       |
+| MobileNetV3_small | 1 layer      | 0.9265   |     10     |  690.6068074703217             |  6.108                       |
 | MobileNetV3_small | 3 layer      | 0.9361   |      7     |  777.5125722885132             |  6.109                       |
-| MobileNetV3_large | 2 layer      | 0.9315   |      4     | 1591.792223930359              | 16.683                       |
+| MobileNetV3_large | 1 layer      | 0.9315   |      4     | 1591.792223930359              | 16.683                       |
 | MobileNetV3_large | 3 layer      | 0.9355   |      9     | 1325.0456538200378             | 16.684                       |
 
 ## Conclusion
