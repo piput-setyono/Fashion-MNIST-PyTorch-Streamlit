@@ -119,8 +119,8 @@ Results on the test dataset with in each model:
 
 | Model             | Input Images | F1 Score | Best Epoch | Training Time in 10 epochs (s) | model _state_dict_ size (KB) |
 | ----------------- | ------------ | -------- | ---------- | ------------------------------ | ---------------------------- |
-| ResNet50          | 1 layer      | 0.9231   |      9     |  2656.2751317024231             | 92.205                       |
-| ResNet50          | 3 layer      | 0.9325   |      6     |  1550.8460876941681             | 92.229                       |
+| ResNet50          | 1 layer      | 0.9231   |      9     |  2526.2751317024231             | 92.205                       |
+| ResNet50          | 3 layer      | 0.9325   |      6     |  2550.8460876941681             | 92.229                       |
 | MobileNetV2       | 1 layer      | 0.9321   |     10     | 1529.3635387420654             |  8.985                       |
 | MobileNetV2       | 3 layer      | 0.9372   |      4     | 1597.850979566574              |  9.987                       |
 | MobileNetV3_small | 1 layer      | 0.9265   |     10     |  690.6068074703217             |  6.108                       |
